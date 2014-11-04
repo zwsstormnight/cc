@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates>
+	<template id="computerContent" type="page" name="计算机内容"
+		templatePath="/example/computer/show.ftl"
+		staticPath="/computer/content/${createDate?string('yyyyMM')}/${id}.html" />
+	<template id="index" type="page" name="首页" templatePath="/index.ftl"
+		staticPath="/index.html" />
+</templates>
